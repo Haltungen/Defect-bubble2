@@ -1,0 +1,43 @@
+\begin{thebibliography}{1}
+
+\bibitem{first}
+H.~{Ammari}, B.~{Fitzpatrick}, D.~{Gontier}, H.~{Lee}, and H.~{Zhang}.
+\newblock {Minnaert resonances for acoustic waves in bubbly media}.
+\newblock {\em ArXiv e-prints}, March 2016.
+
+\bibitem{lecturenotes}
+H.~Ammari, B.~Fitzpatrick, H.~Kang, M.~Ruiz, S.~Yu, and H.~Zhang.
+\newblock Mathematical and computational methods in photonics and phononics.
+\newblock Technical Report 2017-05, Seminar for Applied Mathematics, ETH
+  Z{\"u}rich, Switzerland, 2017.
+
+\bibitem{bandgap}
+H.~{Ammari}, B.~{Fitzpatrick}, H.~{Lee}, S.~{Yu}, and H.~{Zhang}.
+\newblock {Subwavelength phononic bandgap opening in bubbly media}.
+\newblock {\em ArXiv e-prints}, February 2017.
+
+\bibitem{asymptotics}
+Habib Ammari, Hyeonbae Kang, and Eunjoo Kim.
+\newblock Approximate boundary conditions for patch antennas mounted on thin
+  dielectric layers.
+\newblock 1, 04 2006.
+
+\bibitem{effectivemedium}
+Habib Ammari and Hai Zhang.
+\newblock Effective medium theory for acoustic waves in bubbly fluids near
+  minnaert resonant frequency.
+\newblock {\em SIAM Journal on Mathematical Analysis}, 49(4):3252--3276, 2017.
+
+\bibitem{asymptoticsderivative}
+Abdessatar Khelifi and Habib Zribi.
+\newblock Asymptotic expansions for the voltage potentials with two-dimensional
+  and three-dimensional thin interfaces.
+\newblock {\em Mathematical Methods in the Applied Sciences},
+  34(18):2274--2290, 2011.
+
+\bibitem{weakdifffcn}
+William~P. Ziemer.
+\newblock {\em Weakly Differentiable Functions}.
+\newblock Springer-Verlag New York, Inc., New York, NY, USA, 1989.
+
+\end{thebibliography}

@@ -1,0 +1,51 @@
+This is BibTeX, Version 0.99d (TeX Live 2017)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: plan.aux
+The style file: plain.bst
+Database file #1: defect.bib
+I was expecting an "="---line 39 of file defect.bib
+ : article 
+ :         NUMBER = {82},
+I'm skipping whatever remains of this entry
+You've used 3 entries,
+            2118 wiz_defined-function locations,
+            512 strings with 4450 characters,
+and the built_in function-call counts, 1001 in all, are:
+= -- 86
+> -- 79
+< -- 0
++ -- 31
+- -- 28
+* -- 81
+:= -- 193
+add.period$ -- 9
+call.type$ -- 3
+change.case$ -- 23
+chr.to.int$ -- 0
+cite$ -- 3
+duplicate$ -- 30
+empty$ -- 53
+format.name$ -- 28
+if$ -- 187
+int.to.chr$ -- 0
+int.to.str$ -- 3
+missing$ -- 3
+newline$ -- 18
+num.names$ -- 6
+pop$ -- 21
+preamble$ -- 1
+purify$ -- 20
+quote$ -- 0
+skip$ -- 22
+stack$ -- 0
+substring$ -- 15
+swap$ -- 3
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 12
+warning$ -- 0
+while$ -- 6
+width$ -- 4
+write$ -- 33
+(There was 1 error message)

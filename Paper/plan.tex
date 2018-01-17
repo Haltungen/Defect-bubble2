@@ -1,0 +1,91 @@
+\documentclass[a4paper]{article}
+
+%% Language and font encodings
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{cite}
+
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\usepackage{wrapfig}
+\usepackage{cutwin}
+\graphicspath{ {images/} }
+\usetikzlibrary{intersections,decorations.pathreplacing,decorations.markings,calc}
+
+%% Sets page size and margins
+\usepackage[a4paper,top=3cm,bottom=2cm,left=2.5cm,right=2.5cm,marginparwidth=1.75cm]{geometry}
+
+%% Useful packages
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\newtheorem{prop}{Propostition}
+\usepackage{tikz}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{caption}
+%\usepackage{subcaption}
+\usepackage{float}
+\captionsetup{font={small,it}}
+\theoremstyle{definition}
+\newcommand{\D}{\mathbb{D}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\C}{\mathcal{C}}
+\newcommand{\A}{\mathcal{A}}
+\newcommand{\B}{\mathcal{B}}
+\newcommand{\Sc}{\mathcal{S}}
+\newcommand{\K}{\mathcal{K}}
+\newcommand{\dx}{\: \mathrm{d}}
+\newcommand{\Scrystal}{\mathcal{S}_D^\#}
+\newcommand{\KstarC}{(\mathcal{K}_D^{\#})^*}
+\newcommand{\expl}[1]{\left[\text{\footnotesize \emph{#1}} \right]}
+\newcommand{\ds}{\displaystyle}
+\newcommand{\eqnref}[1]{(\ref {#1})}
+\def\nm{\noalign{\medskip}}
+
+\title{Localized modes for acoustic waves in a bubbly crystal with a defect}
+\author{\small Author: Erik Orvehed Hiltunen, Master student in Engineering physics, Uppsala University \\ \small Supervisor: Habib Ammari, Professor of Applied Mathematics, Department of Mathematics, ETH Zürich}
+
+\begin{document}
+\maketitle
+\section{Purpose and goals}
+We consider acoustic waves propagation through a liquid with bubbles. These bubbles resonates at a frequency which correspond to wavelengths much larger than the bubble, the so called Minnaert resonance frequency. Specifically, we consider a periodic array of bubbles, where the size of one of the bubbles is perturbed. The goal is to analytically and numerically show that this crystal has a localized eigenmode close to the defect bubble.
+
+It has previously been shown that an unperturbed, periodic bubble crystal has a bandgap close to the Minnaert resonance \cite{bandgap}. Physically, this means that waves with frequencies inside the bandgap will be exponentially decaying inside the crystal. Furthermore, it has been experimentally shown that a perturbed crystal will have a localized mode, i.e. for waves of certain frequencies inside the bandgap, the wave will be localized around the perturbation and will be exponentially decaying away from the perturbation \cite{experiment}. 
+
+\section{Planning}
+zThe following plan shows the work which needs to be done and the time plan for the project. 
+
+\begin{table}[h]
+	\centering
+\begin{tabular}{r|p{13cm}}
+	Week & Planned work \\ \hline
+	2017 - 37 & Reading old papers, especially \cite{first} and \cite{bandgap}\\
+	38 & Reading old papers, especially \cite{first} and \cite{bandgap}\\
+	39 & Working on the essential spectrum for the original and perturbed crystals\\
+	40 & Continue work on essential spectrum, formulating the perturbed problem\\
+	41 & Formulating the perturbed problem and the boundary integral equations \\
+	42 & Solving the model problem with two different methods \\
+	43 & Working on equations for the numerical implementation, Taylor expansions of the quasi-periodic Green's function\\
+	44 & Starting the numerical implementation\\
+	45 & Continuing with the numerical implementation, starting writing the paper\\
+	46 & Deriving the correct jump conditions for crystal single layer potential, debugging the code\\
+	47 & Finish the code, start the analysis. Read on Taylor expansions for single layer potentials for perturbed boundaries.\\
+	48 & Use Taylor expansions to reduce the 4x4 system to a 2x2 system\\
+	49 & Perform asymptotic analysis for the radius to write the system as the original + perturbation\\
+	50 & Show that the system has a characteristic value inside the bandgap\\
+	51 & Finish the analysis\\
+	2018 - 03 & Write the paper\\
+	04 & Write the paper\\
+	05 & Write the paper\\
+	06 & Finish the paper\\
+	
+\end{tabular}
+\end{table}
+\bibliography{defect}{}
+\bibliographystyle{plain}
+\end{document}

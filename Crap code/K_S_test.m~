@@ -1,0 +1,47 @@
+clear all
+close all
+
+rho = 5000;
+rho_b = 1;
+kappa = 5000;
+kappa_b = 1;
+omega = 0.2;
+
+delta = rho_b/rho;
+v = sqrt(rho/kappa);
+v_b = sqrt(rho_b/kappa_b);
+
+k0 = omega * v;
+kb = omega * v_b;
+
+NN = 3;     % Order of fourier series
+N1 = 3;     % Order of truncation for lattice sum
+N2 = 5;     % Order of trucation inside Fourier coefficients  
+N3 = 10;    % Number of discretization points in quadrature for integrating G_alpha
+
+nPoints = 20;
+xMax = 0.5;
+nX = 3^2;
+hX = 2*xMax/(nX-1);
+[x1, x2] = meshgrid(-xMax:hX:xMax);
+r_2 = 0;
+theta_2 = 0;
+y = r_2*[cos(theta_2),sin(theta_2)];
+alpha = [pi/2, pi/8];
+
+R_b = 0.05;  % Size of crystal bubbles
+R_d = 0.02;  % Size of defect bubble
+B = shape.Ellipse(R_b, R_b, nPoints);
+B_d = shape.Ellipse(R_d, R_d, nPoints);
+x = B.points;
+phi = rand(nPoints,1);
+Sphi = zeros(nPoints,1);
+
+S = ops.SingleLayer_H_Biperiodic(k0, B, 'P0', 1, 1, 1, alpha);
+Sphi1 = S.Kmat*phi;
+for m = 1:nPoints
+    Sphi(m) = ops.SBiPeriodic(k0, alpha, R_b, phi, x(1,m), x(2,m));
+    error(m) = (Sphi(m)-Sphi1(m))/(abs(Sphi1(m));
+end
+
+fprintf('Max error: %\n');

@@ -1,0 +1,138 @@
+\begin{thebibliography}{10}
+
+\bibitem{H3a}
+H.~Ammari, D.~Gontier, Fitzpatrick B., H.~Lee, and H.~Zhang.
+\newblock {M}innaert resonances for acoustic waves in bubbly media.
+\newblock {\em arXiv:1603.03982}, 2016.
+
+\bibitem{Ammari2007_polarizationBook}
+H.~Ammari and H.~Kang.
+\newblock {\em Polarization and moment tensors: with applications to inverse
+  problems and effective medium theory}, volume 162.
+\newblock Springer Science \& Business Media, 2007.
+
+\bibitem{arma}
+H.~Ammari, H.~Kang, and H.~Lee.
+\newblock Asymptotic analysis of high-contrast phononic crystals and a
+  criterion for the band-gap opening.
+\newblock {\em Arch. Ration. Mech. Anal.}, 193(3):679--714, 2009.
+
+\bibitem{Ammari2009_book}
+H.~Ammari, H.~Kang, and H.~Lee.
+\newblock {\em Layer potential techniques in spectral analysis}, volume 153.
+\newblock American Mathematical Society Providence, 2009.
+
+\bibitem{soussi}
+H.~Ammari, H.~Kang, S.~Soussi, and H.~Zribi.
+\newblock Layer potential techniques in spectral analysis. ii. sensitivity
+  analysis of spectral properties of high contrast band-gap materials.
+\newblock {\em Multiscale Model. Simul.}, 5(2):646--663, 2006.
+
+\bibitem{Ammari2015_c}
+H.~Ammari, P.~Millien, M.~Ruiz, and H.~Zhang.
+\newblock Mathematical analysis of plasmonic nanoparticles: the scalar case.
+\newblock {\em arXiv preprint arXiv:1506.00866}, 2015.
+
+\bibitem{matias1}
+H.~Ammari, P.~Millien, M.~Ruiz, and H.~Zhang.
+\newblock Mathematical analysis of plasmonic nanoparticles: the scalar case.
+\newblock {\em Arch. Ration. Mech. Anal., DOI:10.1007/s00205-017-1084-5}, 2017.
+
+\bibitem{matias2}
+H.~Ammari, M.~Ruiz, S.~Yu, and H.~Zhang.
+\newblock Mathematical analysis of plasmonic resonances for nanoparticles: the
+  full maxwell equations.
+\newblock {\em J. Differ. Equat.}, 261:3615--3669, 2016.
+
+\bibitem{Ammari2015_a}
+H.~Ammari and H.~Zhang.
+\newblock Super-resolution in high-contrast media.
+\newblock {\em Proc. R. Soc. A}, 471(2178), 2015.
+
+\bibitem{Ammari_Hai}
+H.~Ammari and H.~Zhang.
+\newblock Effective medium theory for acoustic waves in bubbly fluids near
+  minnaert resonant frequency.
+\newblock {\em arXiv:1604.08409}, 2016.
+
+\bibitem{leslie}
+A.~Barnett and L.~Greengard.
+\newblock A new integral representation for quasi-periodic fields and its
+  application to two-dimensional band structure calculations.
+\newblock {\em J. Comput. Phys.}, 229(19):6898--6914, 2010.
+
+\bibitem{bloch}
+C.~Conca and M.~Vanninathan.
+\newblock Homogenization of periodic structures via bloch decomposition.
+\newblock {\em SIAM. J. Appl. Math.}, 57:1639--1659, 1997.
+
+\bibitem{figotin}
+A.~Figotin and P.~Kuchment.
+\newblock Spectral properties of classical waves in high-contrast periodic
+  media.
+\newblock {\em SIAM J. Appl. Math.}, 58:683--702, 1998.
+
+\bibitem{Gohberg1971}
+I.C. Gohberg and E.I. Sigal.
+\newblock An operator generalization of the logarithmic residue theorem and the
+  theorem of {R}ouch\'{e}.
+\newblock {\em Sb. Math.}, 13(4):603--625, 1971.
+
+\bibitem{hempel}
+R.~Hempel and K.~Lienau.
+\newblock Spectral properties of periodic media in the large coupling limit.
+\newblock {\em Comm. Partial Differential Equations}, 25:1445--1470, 2000.
+
+\bibitem{Leroy2009}
+V.~Leroy, A.~Bretagne, M.~Fink, H.~Willaime, P.~Tabeling, and A.~Tourin.
+\newblock Design and characterization of bubble phononic crystals.
+\newblock {\em Appl. Phys. Lett.}, 95(17):171904, 2009.
+
+\bibitem{Leroy2002}
+V.~Leroy, M.~Devaud, and J.-C. Bacri.
+\newblock The air bubble: Experiments on an unusual harmonic oscillator.
+\newblock {\em Am. J. Phys.}, 70(10):1012--1019, 2002.
+
+\bibitem{Linton2010}
+C.~M. Linton.
+\newblock Lattice sums for the helmholtz equation.
+\newblock {\em SIAM Rev.}, 52(4):630--674, 2010.
+
+\bibitem{Lipton2}
+R.~Lipton and R.~Viator~Jr.
+\newblock Bloch waves in crystals and periodic high contrast media.
+\newblock {\em ESAIM: M2AN, DOI:10.1051/m2an/2016046}, 2016.
+
+\bibitem{Lipton}
+R.~Lipton and R.~Viator~Jr.
+\newblock Creating band gaps in periodic media.
+\newblock {\em arXiv:1607.02365}, 2016.
+
+\bibitem{phononic1}
+Z.~Liu, , X.~Zhang, Y.~Mao, Y.Y. Zhu, Z.~Yang, C.T. Chan, and P.~Sheng.
+\newblock Locally resonant sonic materials.
+\newblock {\em Science}, 289(5485):1734--1736, 2000.
+
+\bibitem{phononic2}
+Z.~Liu, C.T. Chan, and P.~Sheng.
+\newblock Analytic model of phononic crystals with local resonances.
+\newblock {\em Phys. review B}, 71(1):014103, 2005.
+
+\bibitem{pnas}
+K.H. Matlack, A.~Bauhofer, S.~Kr\"odel, A.~Palermo, and C.~Daraio.
+\newblock Composite 3d-printed metastructures for low-frequency and broadband
+  vibration absorption.
+\newblock {\em Proc. Natl. Acad. Sci. USA}, 113(30):8386--8390, 2016.
+
+\bibitem{Minnaert1933}
+M.~Minnaert.
+\newblock {XVI}. {O}n musical air-bubbles and the sounds of running water.
+\newblock {\em The London, Edinburgh, Dublin Philos. Mag. and J. of Sci.},
+  16(104):235--248, 1933.
+
+\bibitem{nature}
+E.L. Thomas.
+\newblock Bubbly but quiet.
+\newblock {\em Nature}, 462(24), 2009.
+
+\end{thebibliography}

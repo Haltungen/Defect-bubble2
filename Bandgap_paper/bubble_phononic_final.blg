@@ -1,0 +1,46 @@
+This is BibTeX, Version 0.99d (TeX Live 2017)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: bubble_phononic_final.aux
+The style file: plain.bst
+Database file #1: bubble_phononic2.bib
+You've used 25 entries,
+            2118 wiz_defined-function locations,
+            663 strings with 7751 characters,
+and the built_in function-call counts, 8297 in all, are:
+= -- 805
+> -- 447
+< -- 2
++ -- 178
+- -- 150
+* -- 635
+:= -- 1447
+add.period$ -- 75
+call.type$ -- 25
+change.case$ -- 148
+chr.to.int$ -- 0
+cite$ -- 25
+duplicate$ -- 269
+empty$ -- 596
+format.name$ -- 150
+if$ -- 1654
+int.to.chr$ -- 0
+int.to.str$ -- 25
+missing$ -- 27
+newline$ -- 128
+num.names$ -- 50
+pop$ -- 122
+preamble$ -- 1
+purify$ -- 125
+quote$ -- 0
+skip$ -- 186
+stack$ -- 0
+substring$ -- 527
+swap$ -- 27
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 96
+warning$ -- 0
+while$ -- 77
+width$ -- 27
+write$ -- 271
